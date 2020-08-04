@@ -5,6 +5,7 @@ import org.bukkit.ChatColor;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.PlayerBedEnterEvent;
+import org.bukkit.event.player.PlayerBedLeaveEvent;
 import to.minecraft.elitesquad.plugin.MinecraftServerPlugin;
 
 /**
@@ -36,6 +37,13 @@ public class EventListener implements Listener {
                 }
             }, secondsToFallAsleep*20);
         }
+
+    }
+
+    @EventHandler
+    public void leaveBed(PlayerBedLeaveEvent event) {
+
+        Bukkit.broadcastMessage(ChatColor.GOLD + event.getPlayer().getName() + ChatColor.GREEN + " left the bed!");
 
     }
 
