@@ -1,18 +1,31 @@
 package to.minecraft.elitesquad.plugin;
 
 import org.bukkit.Bukkit;
-import org.bukkit.event.Listener;
 import org.bukkit.plugin.SimplePluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import to.minecraft.elitesquad.listener.EventListener;
 
+/**
+ * Represents the main-class of the plugin.
+ *
+ * @author Protagor
+ */
 public class MinecraftServerPlugin extends JavaPlugin {
 
+    /**
+     * Singleton for reference to the only object of this class.
+     */
     public static MinecraftServerPlugin minecraftServerPlugin;
 
-    private SimplePluginManager pluginManager = (SimplePluginManager) Bukkit.getPluginManager();
+    /**
+     * Pluginmanager for registering events.
+     */
+    private final SimplePluginManager pluginManager = (SimplePluginManager) Bukkit.getPluginManager();
 
-    private EventListener eventListener = new EventListener();
+    /**
+     * Instance of the Eventlistener class.
+     */
+    private final EventListener eventListener = new EventListener();
 
     @Override
     public void onEnable() {
