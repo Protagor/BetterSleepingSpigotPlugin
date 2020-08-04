@@ -16,7 +16,7 @@ import to.minecraft.elitesquad.plugin.MinecraftServerPlugin;
 public class EventListener implements Listener {
 
     /**
-     * Time in seconds that player has to stay in the bed so it gets day.
+     * Time in seconds the player has to stay in the bed so it gets day.
      */
     private final long secondsToFallAsleep = 5;
 
