@@ -1,4 +1,4 @@
 main: to.minecraft.elitesquad.plugin.MinecraftServerPlugin
-version: 1.0.0
+version: 1.1.0
 name: MinecraftServerPlugin
-description: Plugin für den elitären Server
+description: Plugin sorgt dafür, dass nur ein Spieler in einer Welt schlafen muss, damit dort Tag wird.
