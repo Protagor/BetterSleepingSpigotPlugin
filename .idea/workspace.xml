@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9446929e-9e50-4ca2-b636-527403535702" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/to/minecraft/elitesquad/listener/EventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/to/minecraft/elitesquad/listener/EventListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/MinecraftServerPlugin-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/to/minecraft/elitesquad/listener/EventListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/to/minecraft/elitesquad/listener/EventListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/to/minecraft/elitesquad/plugin/MinecraftServerPlugin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/to/minecraft/elitesquad/plugin/MinecraftServerPlugin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="$PROJECT_DIR$/.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1fbAez5tP35MmmTZPgIjslX0wD9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="foldersAlwaysOnTop" value="false" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9446929e-9e50-4ca2-b636-527403535702" name="Default Changelist" comment="" />
+      <created>1596476517826</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596476517826</updated>
+      <workItem from="1596476523156" duration="1612000" />
+      <workItem from="1596478470156" duration="308000" />
+      <workItem from="1596479727149" duration="250000" />
+      <workItem from="1596481577068" duration="563000" />
+      <workItem from="1596560177667" duration="1315000" />
+      <workItem from="1596561907077" duration="1320000" />
+      <workItem from="1596642346397" duration="1007000" />
+      <workItem from="1598016028392" duration="2652000" />
+      <workItem from="1598019760670" duration="401000" />
+      <workItem from="1598020488622" duration="226000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="320" y="115" key="#Project_Structure" timestamp="1596476895068">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="115" key="#Project_Structure/0.0.1440.900@0.0.1440.900" timestamp="1596476895068" />
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598018976133">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598018976133" />
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom" timestamp="1598020715348">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1598020715348" />
+    <state width="1396" height="245" key="GridCell.Tab.0.center" timestamp="1598020715345">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1598020715345" />
+    <state width="1396" height="245" key="GridCell.Tab.0.left" timestamp="1598020715344">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1598020715344" />
+    <state width="1396" height="245" key="GridCell.Tab.0.right" timestamp="1598020715347">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1396" height="245" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1598020715347" />
+    <state x="279" y="6" key="SettingsEditor" timestamp="1598019884406">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="279" y="6" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598019884406" />
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog" timestamp="1598020975765">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="397" y="282" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1598020975765" />
+    <state x="97" y="147" key="new project wizard" timestamp="1596642949177">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="97" y="147" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1596642949177" />
+  </component>
+</project>

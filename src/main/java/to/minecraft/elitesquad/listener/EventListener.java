@@ -8,6 +8,7 @@ import org.bukkit.event.player.PlayerBedEnterEvent;
 import org.bukkit.event.player.PlayerBedLeaveEvent;
 import org.bukkit.event.player.PlayerJoinEvent;
 
+import java.util.Arrays;
 import java.util.List;
 
 /**
@@ -17,7 +18,7 @@ import java.util.List;
  */
 public class EventListener implements Listener {
 
-    private static final List<String> sleepingQuotes = List.of(
+    private static final List<String> sleepingQuotes = Arrays.asList(
             " schläft nun!",
             " hat sich in die Welt der Träume verabschiedet!",
             " ist ganz, ganz müde!",
@@ -25,7 +26,7 @@ public class EventListener implements Listener {
             " macht Hajahaja!"
     );
 
-    private static final List<String> wakingUpQuotes = List.of(
+    private static final List<String> wakingUpQuotes = Arrays.asList(
             " startet nun ausgeschlafen und munter in den Tag!",
             " ist jetzt wach!",
             " hat zwar massiv verpennt, ist dann aber jetzt doch noch aufgewacht!",
@@ -43,6 +44,7 @@ public class EventListener implements Listener {
     public void sendSleepingQuote(PlayerBedEnterEvent bedEnterEvent) {
         //checks if player really entered the bed
         if (bedEnterEvent.getBedEnterResult() == PlayerBedEnterEvent.BedEnterResult.OK) {
+            bedEnterEvent.getPlayer().setSleepingIgnored(false);
             //sends random sleeping quote to all players
             Bukkit.broadcastMessage(
                     ChatColor.GOLD + bedEnterEvent.getPlayer().getName()
@@ -59,6 +61,7 @@ public class EventListener implements Listener {
      */
     @EventHandler
     public void leaveBed(PlayerBedLeaveEvent bedLeaveEvent) {
+        bedLeaveEvent.getPlayer().setSleepingIgnored(true);
         //sends random wake up quote to all players
         Bukkit.broadcastMessage(
                 ChatColor.GOLD + bedLeaveEvent.getPlayer().getName()
